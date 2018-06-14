@@ -1,0 +1,6 @@
+framework module MBRWalletNetworking {
+  umbrella header "MBRWalletNetworking.h"
+
+  export *
+  module * { export * }
+}
