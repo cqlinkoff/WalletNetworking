@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <MJExtension/MJExtension.h>
 @interface MBRBaseModel : NSObject
 
 @end
