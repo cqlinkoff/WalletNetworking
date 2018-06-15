@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/cqmbr/MBRWalletNetworking"
   s.license      = { :type => "Copyright", :text => "LICENSE Copyright 2017 - 2018 cqmbr.net, Inc. All rights reserved." }
   s.author       = { "cqmbr" => "250153903@qq.com" }
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/cqmbr/MBRWalletNetworking.git", :tag => "#{s.version}" }
 
   s.dependency 'MJExtension'
