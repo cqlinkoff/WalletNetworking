@@ -35,6 +35,19 @@
 @property (nonatomic, copy, nonnull) NSString* channel;
 
 /**
+ * @abstract 私钥(平台分配)
+ * @discussion 必填
+ */
+@property (nonatomic, copy, nonnull) NSString* privateKey;
+
+/**
+ * @abstract 商户id(平台分配)
+ * @discussion 必填
+ */
+@property (nonatomic, copy, nonnull) NSString* merchantId;
+
+
+/**
  * @abstract 推送Id
  * @discussion 可选
  */
@@ -78,6 +91,13 @@
  @discussion 使用MBRWalletNetworking提供的功能前，请先配置环境
  */
 - (void)setEnvironmentConfig:(MBRPayConfig*)config;
+
+/**
+ 设置极光推送id
+
+ @param pushId 推送id
+ */
+- (void)setPushId:(NSString *)pushId;
 
 /**
  切换语言

@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MBRWalletNetworking"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "网络请求封装."
   s.description  = <<-DESC 
   								为支付等功能提供网络功能.
