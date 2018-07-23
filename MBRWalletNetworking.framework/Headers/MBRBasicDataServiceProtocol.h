@@ -26,6 +26,11 @@
                        failure:(void (^_Nonnull)(NSString* message,NSInteger code))failure;
 
 /**
+ 获取币列表数据
+ */
+-(void)getCoinDatasuccess:(void (^)(NSString *, NSArray *))success failure:(void (^)(NSString *, NSInteger))failure;
+
+/**
  隐私协议地址
  */
 - (NSString *)getPrivacyPolicyUrl;
